@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Moon Watcher 합성 데이터 개념 화면</title>
+  <desc id="desc">실제 앱 캡처가 아닌 포트폴리오 설명용 도식. 가상 후보 DEMO A와 DEMO B, 서버 기록과 알림 및 저널 흐름을 표시한다.</desc>
+  <rect width="1200" height="680" rx="24" fill="#101719"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Noto Sans KR', sans-serif">
+    <text x="48" y="64" fill="#a9c8bc" font-size="13" letter-spacing="3">TRADING HUB / PERSONAL SOFTWARE</text>
+    <text x="48" y="117" fill="#f1f7f4" font-size="38" font-weight="700">Moon Watcher</text>
+    <text x="48" y="154" fill="#9cacaa" font-size="17">감시 · 알림 · 기록을 연결하는 개인 트레이딩 도구</text>
+    <rect x="889" y="44" width="262" height="40" rx="20" fill="#26352f"/>
+    <text x="1020" y="70" text-anchor="middle" fill="#bde6cd" font-size="14">CONCEPT VIEW · 합성 데이터</text>
+    <rect x="48" y="201" width="708" height="372" rx="16" fill="#1b2528" stroke="#344244"/>
+    <text x="76" y="241" fill="#f1f7f4" font-size="20" font-weight="600">후보 목록</text>
+    <text x="565" y="240" fill="#91b9a6" font-size="14">화면 갱신과 판정 분리</text>
+    <path d="M72 264H732" stroke="#344244"/>
+    <text x="79" y="297" fill="#94a8ac" font-size="13">가상 종목</text>
+    <text x="314" y="297" fill="#94a8ac" font-size="13">가격</text>
+    <text x="459" y="297" fill="#94a8ac" font-size="13">구간 변화</text>
+    <text x="634" y="297" fill="#94a8ac" font-size="13">상태</text>
+    <text x="79" y="345" fill="#f1f7f4" font-size="21" font-weight="600">DEMO A</text>
+    <text x="314" y="345" fill="#eef5f2" font-size="21">$4.24</text>
+    <text x="459" y="345" fill="#96e0b4" font-size="21">+6.0%</text>
+    <rect x="621" y="320" width="83" height="35" rx="8" fill="#294b3c"/>
+    <text x="662" y="344" fill="#b4efcb" font-size="16" text-anchor="middle">급등</text>
+    <path d="M72 376H732" stroke="#344244"/>
+    <text x="79" y="422" fill="#f1f7f4" font-size="21" font-weight="600">DEMO B</text>
+    <text x="314" y="422" fill="#eef5f2" font-size="21">$2.50</text>
+    <text x="459" y="422" fill="#bbcbce" font-size="21">0.0%</text>
+    <rect x="621" y="397" width="83" height="35" rx="8" fill="#354044"/>
+    <text x="662" y="421" fill="#c5d3d7" font-size="16" text-anchor="middle">횡보</text>
+    <path d="M72 455H732" stroke="#344244"/>
+    <text x="79" y="497" fill="#a7b8b7" font-size="16">표시 상태와 알림 전달 상태를 구분합니다.</text>
+    <text x="79" y="529" fill="#829796" font-size="14">예시 숫자는 실제 종목·계좌·운영 성과와 무관합니다.</text>
+    <rect x="786" y="201" width="366" height="109" rx="16" fill="#202e2b"/>
+    <text x="810" y="235" fill="#98baaa" font-size="12" letter-spacing="2">01 / MONITOR</text>
+    <text x="810" y="274" fill="#e6f3eb" font-size="22">서버에서 감시하고 기록</text>
+    <rect x="786" y="332" width="366" height="109" rx="16" fill="#202b30"/>
+    <text x="810" y="366" fill="#9dbac8" font-size="12" letter-spacing="2">02 / NOTIFY</text>
+    <text x="810" y="405" fill="#e2eff4" font-size="22">허용 시간에 Telegram 전달</text>
+    <rect x="786" y="464" width="366" height="109" rx="16" fill="#2c2c29"/>
+    <text x="810" y="498" fill="#c3bd99" font-size="12" letter-spacing="2">03 / REVIEW</text>
+    <text x="810" y="537" fill="#f0eee1" font-size="22">Sheets에서 거래 돌아보기</text>
+    <text x="48" y="628" fill="#899f9a" font-size="14">포트폴리오 설명용 도식 · 실제 앱 캡처 아님 · 실시간 연결 없음</text>
+  </g>
+</svg>
