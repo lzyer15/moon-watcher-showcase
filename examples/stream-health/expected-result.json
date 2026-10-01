@@ -1,0 +1,100 @@
+{
+  "dataMode": "synthetic",
+  "scenarios": [
+    {
+      "name": "sustainedStaleFrames",
+      "timeline": [
+        {
+          "quoteAgeSeconds": 10,
+          "second": 0,
+          "shouldReconnect": false
+        },
+        {
+          "quoteAgeSeconds": 10,
+          "second": 1,
+          "shouldReconnect": false
+        },
+        {
+          "quoteAgeSeconds": 10,
+          "second": 2,
+          "shouldReconnect": false
+        },
+        {
+          "quoteAgeSeconds": 10,
+          "second": 3,
+          "shouldReconnect": false
+        },
+        {
+          "quoteAgeSeconds": 10,
+          "second": 4,
+          "shouldReconnect": false
+        },
+        {
+          "quoteAgeSeconds": 10,
+          "second": 5,
+          "shouldReconnect": false
+        },
+        {
+          "quoteAgeSeconds": 10,
+          "second": 6,
+          "shouldReconnect": false
+        },
+        {
+          "quoteAgeSeconds": 10,
+          "second": 7,
+          "shouldReconnect": false
+        },
+        {
+          "quoteAgeSeconds": 10,
+          "second": 8,
+          "shouldReconnect": false
+        },
+        {
+          "quoteAgeSeconds": 10,
+          "second": 9,
+          "shouldReconnect": false
+        },
+        {
+          "quoteAgeSeconds": 10,
+          "second": 10,
+          "shouldReconnect": false
+        },
+        {
+          "quoteAgeSeconds": 10,
+          "second": 11,
+          "shouldReconnect": false
+        },
+        {
+          "quoteAgeSeconds": 10,
+          "second": 12,
+          "shouldReconnect": false
+        },
+        {
+          "quoteAgeSeconds": 10,
+          "second": 13,
+          "shouldReconnect": false
+        },
+        {
+          "quoteAgeSeconds": 10,
+          "second": 14,
+          "shouldReconnect": false
+        },
+        {
+          "quoteAgeSeconds": 10,
+          "second": 15,
+          "shouldReconnect": true
+        }
+      ]
+    },
+    {
+      "frames": 100,
+      "name": "sameInstantBurst",
+      "shouldReconnect": false
+    },
+    {
+      "name": "sparseQuietMarket",
+      "shouldReconnect": false
+    }
+  ],
+  "source": "production TradeStreamHealth.swift, unchanged"
+}

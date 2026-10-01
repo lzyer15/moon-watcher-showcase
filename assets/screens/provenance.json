@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-01 KST",
+  "mode": "synthetic demo",
+  "method": "SwiftUI ImageRenderer; original StatusCard and CandidateRow in a separate static wrapper; not a capture of the complete operating window",
+  "components": {
+    "StatusCard": {
+      "source_path": "apps/moon-watcher/Sources/MoonWatcherApp/ContentView.swift",
+      "source_component_sha256": "fbcac15498e1437504d8083c7ff45e47344fb9c713999cf65347080561afe732"
+    },
+    "CandidateRow": {
+      "source_path": "apps/moon-watcher/Sources/MoonWatcherApp/ContentView.swift",
+      "source_component_sha256": "30f60d83b233f4295743e91ff7a8c40192b75289a5e2c13fbc77c254cb6284c6"
+    }
+  },
+  "fixture_path": "apps/moon-watcher/Sources/MoonWatcherCore/Resources/demo_fixture.json",
+  "fixture_sha256": "2fd017866ec564d375bcebda1cc083deecab06c25a6f7d8ce5c735271762ad8a",
+  "network": "blocked during native render",
+  "accounts": "none",
+  "images": {
+    "trading-status.png": "228c3d02de03fe4251fd8e02e527201068481aa4c4e502e00016fdc984ee74be",
+    "stream-health-result.png": "312b582cbdd5afa425992db10e7568324c56b3d0243f5bac149f35da98ad4659",
+    "trading-candidates.png": "962cd9bfa841aeb4726d0395b102a5e7756302b98fcab23d49f21b238d1fbda9"
+  }
+}

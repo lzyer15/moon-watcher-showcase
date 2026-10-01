@@ -10,9 +10,15 @@ Mac 앱, Linux 서버, Telegram, Google Sheets를 연결했다. 직접 쓰면서
 
 **개인 운영형 프로토타입 · macOS + Linux · Swift + Python · AI 협업 개발**
 
-![Trading Hub의 시세 감시, 알림, 거래 기록, 공통 운영 관계를 설명하는 도식](assets/trading-hub-overview.svg)
+## 화면과 동작 먼저 보기
 
-*프로젝트 구조를 설명하는 도식이다. 실제 앱 화면이나 실시간 상태, 거래 자료를 사용한 이미지는 아니다.*
+![실제 Moon Watcher 후보 행을 가상 데이터로 렌더한 화면](assets/screens/trading-candidates.png)
+
+앱에서 쓰는 후보 행을 기존 데모 데이터로 렌더했다. 가격·등락·거래량·RVOL과 시세 대기 상태를 한 행에서 본다. 외곽 배치는 공개 자료용이며, 운영 화면 전체를 캡처한 것은 아니다.
+
+[상태 카드와 실행 결과 보기](demo-gallery.md) · [실제 Swift 코드 실행하기](examples/stream-health/README.md)
+
+공개 예제에서는 오래된 시세가 계속 들어올 때와 조용한 시장을 구분한다. 프로덕션 `TradeStreamHealth.swift`를 그대로 사용하고, 원본 테스트 시나리오도 함께 실행할 수 있게 했다.
 
 [구조와 설계](architecture.md) · [지연 개선](case-studies/latency.md) · [장애 대응](case-studies/reliability.md) · [데이터 정합성](case-studies/data-integrity.md)
 
@@ -58,6 +64,10 @@ Mac 앱, Linux 서버, Telegram, Google Sheets를 연결했다. 직접 쓰면서
 세 사례에는 당시 문제와 바꾼 이유, 확인한 결과와 남은 작업을 정리했다.
 
 ## 구조와 기술
+
+![Trading Hub의 감시·알림·거래 기록 구조](assets/trading-hub-overview.svg)
+
+*구조를 설명하는 도식이다.*
 
 ```mermaid
 flowchart LR

@@ -1,0 +1,8 @@
+{
+  "source_path": "apps/moon-watcher/Sources/MoonWatcherCore/TradeStreamHealth.swift",
+  "source_sha256": "d11437b0e444ffa768a38cc40502c9f76a7869109a87f29efd4f0f2dd92e170f",
+  "copy": "Sources/StreamHealthDemo/TradeStreamHealth.swift",
+  "modifications": "none",
+  "test_source": "apps/moon-watcher/Tests/MoonWatcherCoreTests/TradeStreamHealthTests.swift",
+  "test_modifications": "Original test scenario bodies retained; XCTest imports replaced with a small assertion adapter and explicit runner."
+}
