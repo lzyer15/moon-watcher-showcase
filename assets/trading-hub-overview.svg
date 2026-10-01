@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="880" viewBox="0 0 1440 880" role="img" aria-labelledby="title desc">
+  <title id="title">Trading Hub — 개인 트레이딩 감시와 기록</title>
+  <desc id="desc">설명용 도식. 시세와 주문 API를 서버의 Moon Watcher와 Trading Journal이 처리하고 Mac, Telegram, Google Sheets로 연결합니다. Trading Protection은 설계 소개 범위입니다. 실제 화면, 계정, 거래 자료를 포함하지 않습니다.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#8a97aa" stroke-width="1.5"/></marker>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif; }
+      .label { font-size: 14px; font-weight: 600; letter-spacing: 2px; fill: #6b778b; }
+      .name { font-size: 23px; font-weight: 700; fill: #17273e; }
+      .body { font-size: 17px; fill: #56657a; }
+      .small { font-size: 15px; fill: #68788e; }
+      .line { fill: none; stroke: #8a97aa; stroke-width: 2; marker-end: url(#arrow); }
+    </style>
+  </defs>
+  <rect width="1440" height="880" rx="24" fill="#f5f7fb"/>
+  <text x="64" y="70" class="label">PROJECT PORTFOLIO</text>
+  <text x="64" y="137" font-size="54" font-weight="750" fill="#17273e">Trading Hub</text>
+  <text x="64" y="181" font-size="25" fill="#56657a">개인 트레이딩의 감시와 기록을 연결하는 시스템</text>
+  <rect x="1135" y="63" width="241" height="37" rx="18" fill="#e8edf5"/>
+  <text x="1255" y="88" text-anchor="middle" class="small">설명용 도식 · 실제 화면 아님</text>
+
+  <text x="64" y="260" class="label">INPUT</text>
+  <text x="406" y="260" class="label">SHARED SERVER</text>
+  <text x="1092" y="260" class="label">USER TOUCHPOINTS</text>
+  <rect x="64" y="286" width="254" height="270" rx="18" fill="#fff" stroke="#dce3ed"/>
+  <text x="91" y="330" class="name">시세·주문 API</text>
+  <line x1="91" y1="350" x2="290" y2="350" stroke="#e5eaf2"/>
+  <text x="91" y="390" class="body">시세 관측</text>
+  <text x="91" y="428" class="body">본인 주문 스냅샷</text>
+  <text x="91" y="504" class="small">REST / WebSocket</text>
+
+  <rect x="406" y="286" width="564" height="132" rx="18" fill="#fff" stroke="#dce3ed"/>
+  <rect x="406" y="286" width="6" height="132" rx="3" fill="#3c7b85"/>
+  <text x="436" y="330" class="name">Moon Watcher</text>
+  <text x="436" y="363" class="body">감시 · 후보 선정 · 조건 판정 · 알림</text>
+  <text x="436" y="394" class="small">시세 신선도 확인 / 조건 이벤트 기록</text>
+
+  <rect x="406" y="440" width="564" height="132" rx="18" fill="#fff" stroke="#dce3ed"/>
+  <rect x="406" y="440" width="6" height="132" rx="3" fill="#6878ad"/>
+  <text x="436" y="484" class="name">Trading Journal</text>
+  <text x="436" y="517" class="body">주문 수집 · 중복 갱신 · 거래와 기간 집계</text>
+  <text x="436" y="548" class="small">원본과 파생 집계 분리 / 미확인은 빈칸</text>
+
+  <rect x="406" y="594" width="564" height="94" rx="18" fill="#edf1f7" stroke="#dce3ed" stroke-dasharray="6 5"/>
+  <text x="436" y="633" font-size="21" font-weight="650" fill="#56657a">Trading Protection</text>
+  <text x="436" y="665" class="small">별도 모듈의 설계와 모의 검증 소개</text>
+
+  <rect x="1092" y="286" width="284" height="86" rx="16" fill="#fff" stroke="#dce3ed"/>
+  <text x="1117" y="320" class="name">Mac</text>
+  <text x="1117" y="350" class="small">후보 · 기록 · 서버 관리</text>
+  <rect x="1092" y="394" width="284" height="86" rx="16" fill="#fff" stroke="#dce3ed"/>
+  <text x="1117" y="428" class="name">Telegram</text>
+  <text x="1117" y="458" class="small">허용 시간의 알림 전달</text>
+  <rect x="1092" y="502" width="284" height="86" rx="16" fill="#fff" stroke="#dce3ed"/>
+  <text x="1117" y="536" class="name">Google Sheets</text>
+  <text x="1117" y="566" class="small">거래 기록과 회고 대시보드</text>
+
+  <path d="M318 373H357V351H394" class="line"/>
+  <path d="M318 440H357V505H394" class="line"/>
+  <path d="M970 330H1080" class="line"/>
+  <path d="M970 374H1024V437H1080" class="line"/>
+  <path d="M970 510H1024V545H1080" class="line"/>
+
+  <rect x="64" y="732" width="1312" height="85" rx="18" fill="#17273e"/>
+  <text x="91" y="769" font-size="19" font-weight="650" fill="#fff">공통 운영</text>
+  <text x="252" y="769" font-size="18" fill="#d5deeb">공유 인증 · SQLite 저장 · 설정 · 상태 진단 · 제한적 복구</text>
+  <text x="252" y="798" font-size="15" fill="#a9bad1">단일 VM에서 기능별 책임을 분리하고 운영 자원을 공유</text>
+  <text x="64" y="851" class="small">macOS + Linux · Swift + Python · 개인 운영형 프로토타입</text>
+</svg>
